@@ -1,8 +1,8 @@
 ## HR-Analytics-Power-BI-Project
-#Overview
-This repository contains the HR Analytics project developed in Power BI. The project aims to analyze employee attendance data, focusing on key metrics such as total working days, present days, Work From Home (WFH) days, and Sick Leave (SL) days. The project includes data gathering, transformation, and the creation of interactive dashboards to visualize attendance patterns.
+# Overview
+This repository contains the HR Analytics project developed in Power BI. The project aims to analyze employee attendance data, focusing on key metrics such as total working days, present days, Work-from-Home (WFH) days, and Sick Leave (SL) days. It includes data gathering, transformation, and the creation of interactive dashboards to visualize attendance patterns.
 
-Project Workflow
+# Project Workflow
 1. Data Gathering and Transformation
 Data Source: Attendance data is collected from Excel files containing multiple sheets.
 Power Query Editor:
