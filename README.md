@@ -5,16 +5,16 @@ This repository contains the HR Analytics project developed in Power BI. The pro
 ## Project Workflow
 ### 1. Data Gathering and Transformation
 Data Source: Attendance data is collected from Excel files containing multiple sheets.
-Power Query Editor:
-Imported attendance data into Power BI using Power Query Editor.
+
+Power Query Editor: Imported attendance data into Power BI using Power Query Editor.
 Selected only one relevant sheet and unpivoted columns to structure the data in the required format.
 ### 2. Data Transformation
-Parameter and Function:
-Created a parameter to dynamically reference different sheets in the workbook.
+Parameter and Function: Created a parameter to dynamically reference different sheets in the workbook.
 Built a custom function based on the parameter to apply transformations to the rest of the attendance sheets.
+
 ### 3. Data Cleaning
-Removed unnecessary columns from the dataset.
-Loaded the cleaned and transformed data into Power BI for analysis.
+Removed unnecessary columns from the dataset.Loaded the cleaned and transformed data into Power BI for analysis.
+
 ### 4. New Table Creation and DAX Measures
 Created a new table to store calculated measures for analysis.
 Used DAX (Data Analysis Expressions) formulas to add key metrics such as:
@@ -23,6 +23,7 @@ Total Present Days
 Present Percentage
 WFH Percentage
 Sick Leave Percentage
+
 ### 5. Additional Data Columns
 Added new calculated columns in the attendance dataset for:
 WFH (Work From Home) Count
@@ -35,6 +36,7 @@ Present Percentage: (Total Present / Total Working Days) * 100
 WFH Percentage: (Sum of WFH Days / Total Present) * 100
 SL Percentage: (Sum of SL Days / Total Working Days) * 100
 Included slicers for filtering by month, providing an interactive way to view attendance trends for each month.
+
 ### 7. Dashboard Creation
 Built a comprehensive dashboard to visualize key attendance metrics:
 Area Charts for:
